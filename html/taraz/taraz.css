@@ -1,0 +1,126 @@
+body {
+	background: #aea789f7;
+	text-align: center;
+}
+
+nav ul {
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #322e00;
+	display: table;
+	width: 100%;
+}
+
+nav li {
+	text-align: center;
+	display: table-cell
+}
+
+li a {
+	text-align: center;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 30px;
+	text-decoration: none;
+}
+
+li a:hover {
+	text-align: center;
+	background-color: #6f6b69;
+}
+
+h2 a {
+	text-align: center;
+	padding: 33px 25px;
+	color: white;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	text-align: center;
+	background-color: #111;
+}
+
+figcaption{
+	text-align: center;
+}
+
+header {text-align: center;
+	margin-left: 14px;
+}
+
+article {
+	text-align: center;
+	margin: 15px;
+	max-width: 80%;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+img {text-align: center;
+	width: 400px;
+	height: 300px;
+  position:relative;
+  right:28px;
+}
+
+aside {
+	text-align: center;
+	left: 10px;
+	border: 1px solid rgb(137, 180, 8);
+	padding: 15px;
+	max-width: 80%;
+	position: relative;
+	border-color: #6e0fa8;
+	border-width: 5px;
+	font-size: 18px;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	bottom: -100px;
+	background-color: #2a2800;
+}
+
+footer p {
+	color: rgb(124, 120, 104);
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+footer a {
+	color: rgb(140, 209, 229);
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+}
+
+video {
+	text-align: center;
+	display: block;
+	width: 420px;
+	height: 250px;
+  padding:15px;
+}
+
+audio {
+	text-align: center;
+	padding: 15px;
+	width: 98%;
+  box-sizing: border-box;
+}
+
+embed {
+	text-align: center;
+	width: 400px;
+	height: 458px;
+  padding:15px;
+}

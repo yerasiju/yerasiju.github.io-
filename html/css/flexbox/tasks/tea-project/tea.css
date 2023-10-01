@@ -1,0 +1,19 @@
+*{ 
+	background-color: aquamarine ;
+}
+header{
+	background-color: black;
+}
+nav div img{
+	height: 55px;
+width: 125px;
+}
+div a{
+	color: beige;
+	text-align: end;
+}
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+ }
+ 

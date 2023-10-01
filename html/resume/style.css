@@ -7,6 +7,16 @@ body {
 	background: linear-gradient(to bottom, #3498db 40%, #e74c3c 60%);
 }
 
+
+.table-con {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 header {
 	background-color: #004370 ;
 	color: white;
@@ -53,6 +63,33 @@ header h1 {
 	margin-bottom: 10px;
 	border-radius: 5px;
 }
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #601212;
+	color: #ffffff;
+}
+
+
+
+a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	text-decoration: solid ;
+}
+
 
 footer {
 	background-color: #601212 ;
