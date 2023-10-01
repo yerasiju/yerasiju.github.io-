@@ -1,4 +1,100 @@
-header .image{
-	height: 360px;
-	width: 360px;
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	
+	text-align: center;
+	background: linear-gradient(to bottom, #3498db 40%, #e74c3c 60%);
+}
+
+header {
+	background-color: #004370 ;
+	color: white;
+	padding: 20px 0;
+}
+
+header h1 {
+	margin: 0;
+}
+
+.container {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background: linear-gradient(to bottom, #004370 40%, #601212 60%);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.section h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.section p {
+	font-size: 16px;
+	margin: 0;
+}
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.skills .skill {
+	width: 48%;
+	background-color: #eee;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+footer {
+	background-color: #601212 ;
+	color: white;
+	padding: 10px 0;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+li {
+	margin-right: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+
+.email-icon:before {
+	content: "📧"; 
+
+	height: 45 px;
+}
+
+.instagram-icon:before {
+	content: "📸"; 
+
+	height: 45 px;
+}
+
+.whatsapp-icon:before {
+	content: "📱"; 
+
+	height: 45 px;
+}
+.word{
+	
+	color: #fbf9f9 ;
+	text-decoration: underline;
 }
