@@ -1,0 +1,27 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+ }
+
+ .r1 {
+	flex-wrap: wrap;
+	background-color: #bababa;
+	padding: 25px;
+	display: flex;
+	border: 2px solid red;
+ }
+
+ .t1 {
+	background-color: #ff0000;
+	color: #ffffff;
+	border: 2px solid #ff0000;
+	border-radius: 360%;
+	padding: 10px;
+	margin: 10px;
+	height: 15px;
+	width: 15px;
+	align-items: center;
+	text-align: center;
+ }
